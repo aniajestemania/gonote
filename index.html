@@ -1,0 +1,40 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title> go note </title>
+</head>
+
+<body>
+ <img src="./foto.jpg" alt="Tło" width="100%" height="auto"/> <!-- nie musimy zamykać img -->
+<div>
+ 
+	<h1>GO Note</h1> <!-- najważniejszy nagłówek na stronie, jest największy --> 
+	<p>Aplikacja do zarządzania swoimi <strong>notatkami</strong>.</p> <!-- strong nam pogrubia czczionkę -->
+ </div>
+	
+	<br /> <!-- wymuszenie złamania lini tekstu (enter), pusta linijka robi nam przerę ps. nie musi być zamknięta-->
+ 
+<div>
+	<h2>Moje notatki</h2>
+	<p>Tutaj pojawi się lista notatek.</p> <!-- p=paragraf -->
+</div>
+	<br />
+ <h2>Dodaj notatkę</h2>
+ <form> <!-- formularz -->
+		<div>
+		<label for="note-title">Tytuł notatki</label> <!-- ma atrybut for -->
+		<input placeholder="..." id="note-title" type="text" /> <!-- ma atrybut id=identyfikator -->
+		</div>
+	<div>
+	<label for="note-content">Zawartość notatki</label>
+	<input placeholder="..." id="note-content" type="text" />
+	</div>
+		<div>
+		<button type="submit">Zapisz</button>
+		</div>
+	<br />
+	<a href="https://google.com">©2021 Polityka prywatności | Warunki korzystania z usługi</a>
+ </form>
+</body>
+
+</html>
