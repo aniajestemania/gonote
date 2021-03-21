@@ -1,41 +1,39 @@
 <! DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="customstyle.css">
-<title> go note </title>
-</head>
-
-<body>
- <img src="./foto.jpg" alt="Tło" width="100%" height="auto"/> <!-- nie musimy zamykać img -->
-<div class="main-heather">
- 
-	<h1>GO Note</h1> <!-- najważniejszy nagłówek na stronie, jest największy --> 
-	<p>Aplikacja do zarządzania swoimi <strong>notatkami</strong>.</p> <!-- strong nam pogrubia czczionkę -->
- </div>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="customstyle.css">
+		<title> go note </title>
+	</head>
 	
-	<br /> <!-- wymuszenie złamania lini tekstu (enter), pusta linijka robi nam przerę ps. nie musi być zamknięta-->
- 
-<div>
-	<h2>Moje notatki</h2>
-	<p>Tutaj pojawi się lista notatek.</p> <!-- p=paragraf -->
+	<body>
+		
+		<div class="container-fluid p-0 m-0">
+			<div class="row p-0 m-0">
+				<div class="col-12 col-md-5 col-lg-4 bg-light p-0">
+					<h3 class="w-100 text-center p-4">
+						<i class="bi bi-clipboard-check text-secondary"></i>
+						GoNote
+					</h3>
+					<button type="button" class="btn btn-dark w-100 py-2 rounded-0">
+ <i class="bi bi-pen-fill"></i>
+ Stwórz nową notatkę
+</button>
+<div class="alert alert-secondary m-3 text-center">
+ <i class="bi bi-emoji-frown"></i>
+ Jeszcze nie ma żadnych notatek do wyświetlenia
 </div>
-	<br />
- <h2>Dodaj notatkę</h2>
- <form> <!-- formularz -->
-		<div>
-		<label for="note-title">Tytuł notatki</label> <!-- ma atrybut for -->
-		<input placeholder="..." id="note-title" type="text" /> <!-- ma atrybut id=identyfikator -->
+				</div>
+				<div class="col-12 col-md-7 col-lg-8 bg-white p-0">
+					CZĘŚĆ GŁÓWNA
+				</div>
+			</div>
 		</div>
-	<div>
-	<label for="note-content">Zawartość notatki</label>
-	<input placeholder="..." id="note-content" type="text" />
-	</div>
-		<div>
-		<button type="submit">Zapisz</button>
-		</div>
-	<br />
-	<a href="https://google.com">©2021 Polityka prywatności | Warunki korzystania z usługi</a>
- </form>
-</body>
-
+		
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+	
 </html>
