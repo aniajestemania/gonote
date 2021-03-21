@@ -1,33 +1,6 @@
-input {
-border: 1px solid grey;
-padding: 3px 5px;
-margin-bottom: 10px;
-padding: 10px;
- 
+.cover {
+ background-image: url("viennaa.jpg");
+ background-position: center;
+ background-size: cover;
+ min-height: 150px;
 }
-
-body {
-	font-family: Arial;
-}
-
-h1,h2 {
-	font-variant: small-caps;
- color: green;
-}
-.main-heather {
-	background-color: #D1FAD2;
-}
-a {
-	color: darkgreen;
-	text-decoration: none;
- font-weight: bold;
-}
-img {
-	border: 2px solid #54C03F; //ramka zdjęcia
-	 border-radius: 5px;
-	border-radius: 50%; // zaokrąglił rogi
-}
-
- {
-	
-} 
